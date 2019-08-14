@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/VES_VAdmin",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "VAdmin theme by VnEcoms",
+    "authors": [
+    {
+        "name": "Vnecoms",
+        "email": "hungvt@vnecoms.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

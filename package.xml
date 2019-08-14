@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>VES_VAdmin</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>VAdmin theme by VnEcoms</summary>
+    <description>VAdmin theme by VnEcoms</description>
+    <notes>VAdmin theme by VnEcoms</notes>
+    <authors><author><name>Vnecoms</name><user>easypdfinvoice</user><email>hungvt@vnecoms.com</email></author></authors>
+    <date>2013-11-17</date>
+    <time>05:16:47</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="VES_VAdmin.xml" hash="753d725670a6c68d5d32a38222569e3c"/></dir></target><target name="magecommunity"><dir name="VES"><dir name="VAdmin"><dir name="Helper"><file name="Data.php" hash="982db136f3ac47eb4dbaabdafe46ffac"/></dir><dir name="etc"><file name="config.xml" hash="c7172cc8cef3b514842834309cf0087b"/><file name="system.xml" hash="c487416dad7b28477a578d54bd4f5ffd"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="vnecoms"><file name="vadmin.xml" hash="57b90e632bc2f7efb03079691a09c1fd"/></dir></dir><dir name="template"><dir name="ves_vadmin"><dir name="page"><file name="footer.phtml" hash="dec2ae960f8a45378818f01c78a978d9"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="ves_vadmin"><dir name="css"><file name="styles.css" hash="ea7b0bc4fdfd72e1223409bbec511677"/></dir><dir name="images"><file name="add.png" hash="7c0b1f1eda3650b51b19a2e1d2b40d5d"/><file name="back.png" hash="f4a301dd01f802e8ef0bd1c7eeb892a4"/><file name="bg.jpg" hash="0197ebe83f870a5db1329a8d879509b6"/><file name="delete.png" hash="2e5dd03c0ca5ca0d9114a9f368d03c5b"/><file name="down_arrow.png" hash="54121733e13d39a16748ba2cada686c9"/><file name="reset.png" hash="7433fd9cf5b71bf0d9d954639df5a7fc"/><file name="save.png" hash="414f2f6c36fc3c4b2323c1d413cd3af8"/><file name="up_arrow.png" hash="ddee1bf16f182382e7688fdc71ff07ca"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

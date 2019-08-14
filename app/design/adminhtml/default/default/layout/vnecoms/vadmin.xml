@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+		<update handle="vnecoms_cp" />
+	</default>
+	<vnecoms_cp>
+		<reference name="root">
+    		<action method="addBodyClass" ifconfig="vadmin/config/enabled"><className>vnecoms_cp</className></action>
+    	</reference>
+    	<reference name="head">
+    		<action method="addCss" ifconfig="vadmin/config/enabled"><stylesheet>ves_vadmin/css/styles.css</stylesheet></action>
+    	</reference>
+    	<reference name="footer">
+    		<action method="setTemplate" ifconfig="vadmin/config/enabled"><template>ves_vadmin/page/footer.phtml</template></action>
+    	</reference>
+	</vnecoms_cp>
+</layout>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VES_VAdmin>
+            <version>1.0.0.0</version>
+        </VES_VAdmin>
+    </modules>
+    <adminhtml>
+		<layout>
+			<updates>
+				<vadmin>
+					<file>vnecoms/vadmin.xml</file>
+				</vadmin>
+			</updates>
+		</layout>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <vadmin translate="title" module="vadmin">
+                                            <title>V-Admin Theme</title>
+                                        </vadmin>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+    </adminhtml>
+    <global>
+    	<helpers>
+            <vadmin>
+                <class>VES_VAdmin_Helper</class>
+            </vadmin>
+        </helpers>
+    </global>
+</config>
